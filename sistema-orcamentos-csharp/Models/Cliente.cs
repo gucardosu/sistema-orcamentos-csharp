@@ -4,7 +4,10 @@ using System.Text;
 
 namespace sistema_orcamentos_csharp.Models
 {
-    internal class Program
+    internal class Cliente
     {
+        public string IdCliente;
+        public string Nome;
+        public int Idade;
     }
 }
